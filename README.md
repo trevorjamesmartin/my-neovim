@@ -28,7 +28,6 @@ Neovim's configurations are located under the following paths, depending on your
 | Windows (powershell)| `$env:USERPROFILE\AppData\Local\nvim\` |
 
 Clone the repo:
-
 - on Linux and Mac
 ```sh
 git clone https://github.com/trevorjamesmartin/my-neovim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
@@ -52,11 +51,5 @@ Start Neovim
 nvim
 ```
 
-The `Lazy` plugin manager will start automatically on the first run and install the configured plugins - as can be seen in the introduction video. After the installation is complete you can press `q` to close the `Lazy` UI and **you are ready to go**! Next time you run nvim `Lazy` will no longer show up.
-
-If you would prefer to hide this step and run the plugin sync from the command line, you can use:
-
-```sh
-nvim --headless "+Lazy! sync" +qa
-```
+The `Lazy` plugin manager will start automatically on the first run and install the configured plugins. After the installation is complete you can press `q` to close the `Lazy` UI and **you are ready to go**! `Lazy` will repeat this behavior if/when new plugins are added to the config. See [plugins-setup.lua]("./lua/my/plugins-setup.lua")
 
