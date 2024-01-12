@@ -51,5 +51,4 @@ Start Neovim
 nvim
 ```
 
-The `Lazy` plugin manager will start automatically on the first run and install the configured plugins. After the installation is complete you can press `q` to close the `Lazy` UI and **you are ready to go**! `Lazy` will repeat this behavior if/when new plugins are added to the config. See [plugins-setup.lua]("lua/my/plugins-setup.lua")
-
+The `Lazy` plugin manager will start automatically on the first run and install the configured plugins. After the installation is complete you can press `q` to close the `Lazy` UI and **you are ready to go**! `Lazy` will repeat this behavior if/when new plugins are added to the config. See [plugins-setup.lua](lua/my/plugins-setup.lua)
