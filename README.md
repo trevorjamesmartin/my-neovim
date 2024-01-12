@@ -59,3 +59,18 @@ The `nvim-web-devicons` plugin provides file-type & folder icons that should be 
 
 You can find a large selection of devicon friendly fonts at [Nerd Fonts](https://www.nerdfonts.com/). 
 
+### Mapping Keys
+
+If possible, I'd like to keep all of my keymaps in one file: [keymaps.lua](lua/my/config/keymaps.lua) 
+
+some mappings are created by the plugins themselves, I'd like to keep them in their own files, where possible.
+
+**NOTE**
+It feels cleaner to map [akinsho/toggleterm.nvim](https://github.com/akinsho/toggleterm.nvim) when the plugin is loaded. To change this keymap open [plugins-setup.lua](lua/my/plugins-setup.lua) & search for the keyword 'open_mapping'.
+
+I have my toggleterm open_mapping set to
+- <c-z> on my laptop
+- <c-`> on my desktop
+
+_due to different keyboard layouts & fn keys & such_
+
