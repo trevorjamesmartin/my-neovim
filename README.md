@@ -52,3 +52,10 @@ nvim
 ```
 
 The `Lazy` plugin manager will start automatically on the first run and install the configured plugins. After the installation is complete you can press `q` to close the `Lazy` UI and **you are ready to go**! `Lazy` will repeat this behavior if/when new plugins are added to the config. See [plugins-setup.lua](lua/my/plugins-setup.lua)
+
+### Fonts
+
+The `nvim-web-devicons` plugin provides file-type & folder icons that should be viewable in `:Neotree`. You may need to adjust your terminal font if they don't render. 
+
+You can find a large selection of devicon friendly fonts at [Nerd Fonts](https://www.nerdfonts.com/). 
+
