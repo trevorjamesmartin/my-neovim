@@ -1,0 +1,2 @@
+# my-neovim
+neovim config
