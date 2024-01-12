@@ -3,8 +3,6 @@ a place to store my config whilst learning neovim...
 
 based on [kickstart.nvim](https://github.com/nvim-lua/kickstart.nvim)
 
-a place to store my config whilst learning neovim...
-
 the original goal was to break up the kickstart config for easier consumption
 
 some additional plugins to help along the journey,
