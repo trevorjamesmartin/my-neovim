@@ -72,5 +72,5 @@ I have my toggleterm open_mapping set to
 - <c-z> on my laptop
 - <c-`> on my desktop
 
-_due to different keyboard layouts & fn keys & such_
+_due to different keyboard layouts & fn keys & such._
 

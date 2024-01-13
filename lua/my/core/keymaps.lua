@@ -17,4 +17,7 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 -- File browser
 vim.keymap.set('n', '<C-\\>', '<Cmd>Neotree toggle<CR>')
 
+-- shift line up and down 
+vim.keymap.set('n', '<A-k>', ':m -2<cr>')
+vim.keymap.set('n', '<A-j>', ':m +1<cr>')
 

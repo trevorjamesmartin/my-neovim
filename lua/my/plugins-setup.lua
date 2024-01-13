@@ -58,7 +58,7 @@ require('lazy').setup({
     version = "*",
     opts = {
 --      direction = "float",
-      open_mapping = [[<c-`>]],
+      open_mapping = [[<c-z>]],
     },
     config = true,
   },
