@@ -235,5 +235,23 @@ require('lazy').setup({
     build = ':TSUpdate',
   },
 
+  {
+    -- debug adapter
+    'mfussenegger/nvim-dap'
+  },
+
+  {
+    -- javascript dap bindings
+    'mxsdev/nvim-dap-vscode-js'
+  },
+
+  {
+    -- helpful dap user interface: <leader>ui
+    "rcarriga/nvim-dap-ui",
+    dependencies = {
+      "mfussenegger/nvim-dap"
+    },
+  },
+
 }, {})
 

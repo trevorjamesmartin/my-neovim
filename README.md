@@ -74,3 +74,21 @@ I have my toggleterm open_mapping set to
 
 _due to different keyboard layouts & fn keys & such._
 
+
+### Debug adapter 
+
+[nvim-dap](https://github.com/mfussenegger/nvim-dap) adapter for [vscode-js-debug](https://github.com/microsoft/vscode-js-debug).
+
+download and build a copy of [vscode-js-debug](https://github.com/microsoft/vscode-js-debug)
+
+#### Manually
+
+```bash
+git clone https://github.com/microsoft/vscode-js-debug
+cd vscode-js-debug
+npm install --legacy-peer-deps
+npx gulp vsDebugServerBundle
+mv dist out
+```
+
+

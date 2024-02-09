@@ -18,6 +18,8 @@ require("my.config.telescope")
 require("my.config.treesitter")
 require("my.config.lsp")
 
+require("my.config.nvim-dap")
+
 -- code completion / snippets
 -- require("my.config.nvim-cmp")
 
