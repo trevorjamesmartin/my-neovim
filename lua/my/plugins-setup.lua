@@ -44,6 +44,14 @@ require('lazy').setup({
   },
 
   {
+    "crispgm/nvim-go",
+    dependencies = {
+      "nvim-lua/plenary.nvim",
+      "rcarriga/nvim-notify", -- (optional) if you enable nvim-notify
+    }
+  },
+
+  {
     -- colorscheme Theme 
     'bluz71/vim-nightfly-guicolors',
     priority = 1000,
