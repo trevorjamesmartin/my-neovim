@@ -257,7 +257,8 @@ require('lazy').setup({
     -- helpful dap user interface: <leader>ui
     "rcarriga/nvim-dap-ui",
     dependencies = {
-      "mfussenegger/nvim-dap"
+      "mfussenegger/nvim-dap",
+      "nvim-neotest/nvim-nio"
     },
   },
 
